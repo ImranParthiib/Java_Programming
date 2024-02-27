@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java In VS Code/Codechef Problem/Codechef Problem.iml" filepath="$PROJECT_DIR$/Java In VS Code/Codechef Problem/Codechef Problem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntelliJ IDEA/IntelliJ IDEA.iml" filepath="$PROJECT_DIR$/IntelliJ IDEA/IntelliJ IDEA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java In VS Code/Java In VS Code.iml" filepath="$PROJECT_DIR$/Java In VS Code/Java In VS Code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java Programming.iml" filepath="$PROJECT_DIR$/.idea/Java Programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java In VS Code/Java Programming Spell/Java Programming Spell.iml" filepath="$PROJECT_DIR$/Java In VS Code/Java Programming Spell/Java Programming Spell.iml" />
+    </modules>
+  </component>
+</project>
