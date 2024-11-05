@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F5F5F5"
+    tools:context=".MainActivity">
+
+    <!-- Question TextView -->
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="What is the capital of Bangladesh?"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:padding="16dp"
+        android:background="@drawable/text_background"
+        android:elevation="4dp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Answer Options (RadioGroup) -->
+    <RadioGroup
+        android:id="@+id/answerOptionsRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="24dp"
+        android:padding="8dp">
+
+        <RadioButton
+            android:id="@+id/correctAnswerRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dhaka"
+            android:textSize="20sp"
+            android:textColor="#333333"
+            android:buttonTint="#6200EE" />
+
+        <RadioButton
+            android:id="@+id/chittagongRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chittagong"
+            android:textSize="20sp"
+            android:textColor="#333333"
+            android:buttonTint="#6200EE" />
+
+        <RadioButton
+            android:id="@+id/rajshahiRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rajshahi"
+            android:textSize="20sp"
+            android:textColor="#333333"
+            android:buttonTint="#6200EE" />
+
+        <RadioButton
+            android:id="@+id/khulnaRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khulna"
+            android:textSize="20sp"
+            android:textColor="#333333"
+            android:buttonTint="#6200EE" />
+    </RadioGroup>
+
+    <!-- Check Answer Button -->
+
+    <!-- Answer TextView -->
+
+    <Button
+        android:id="@+id/checkAnswerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#6200EE"
+        android:elevation="4dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:text="Check Answer"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/answerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Right or Wrong"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:background="@drawable/answer_background"
+        android:elevation="4dp" />
+</LinearLayout>
